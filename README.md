@@ -16,8 +16,8 @@ $ npm install find-same-parts --save
 ```javascript
 var findSameParts = require('find-same-parts');
 
-findSameParts('hello world', 'Hello world'); //  ['ello world']
-findSameParts('hello world', 'Hello world', {ignoreCase: true});  //  ['hello world']
+findSameParts('hello world', 'Hello world'); //  ['hello world']
+findSameParts('hello world', 'Hello world', {ignoreCase: false});  //  ['ello world']
 
 findSameParts('hello world, bot', 'hello somebody, bot'); // ['hello', 'bot']
 findSameParts('hello world, bot', 'hello somebody, bot', {minStrLength: 4}); ['hello']
