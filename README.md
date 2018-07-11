@@ -4,7 +4,7 @@ Find the same parts from two given strings
 ## Install
 
 ```bash
-$ npm install find-same-parts
+$ npm install find-same-parts --save
 ```
 
 ## Usage
