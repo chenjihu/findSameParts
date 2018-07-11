@@ -1,5 +1,5 @@
 {
-  "name": "findsameparts",
+  "name": "find-same-parts",
   "version": "1.0.0",
   "description": "List the same parts from two given strings",
   "main": "index.js",
